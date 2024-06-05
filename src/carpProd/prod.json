@@ -1,0 +1,122 @@
+[
+{
+    "id": 1,
+    "titulo": "Pan de masa madre",
+    "descripcion": "Pan artesanal hecho con masa madre.",
+    "precio": 3.50,
+    "categoria": "pan",
+    "imagen": "download.jpg"
+},
+{
+    "id": 4,
+    "titulo": "Baguette",
+    "descripcion": "Clásica baguette francesa, crujiente por fuera y suave por dentro.",
+    "precio": 1.80,
+    "categoria": "pan",
+    "imagen": "https://example.com/images/baguette.jpg"
+},
+{
+    "id": 5,
+    "titulo": "Pan integral",
+    "descripcion": "Pan saludable hecho con harina integral.",
+    "precio": 2.50,
+    "categoria": "pan",
+    "imagen": "https://example.com/images/pan-integral.jpg"
+},
+{
+    "id": 8,
+    "titulo": "Pan de centeno",
+    "descripcion": "Pan denso y saludable hecho con harina de centeno.",
+    "precio": 3.00,
+    "categoria": "pan",
+    "imagen": "https://example.com/images/pan-de-centeno.jpg"
+},
+{
+    "id": 13,
+    "titulo": "Pan de maíz",
+    "descripcion": "Pan dulce y esponjoso hecho con harina de maíz.",
+    "precio": 2.20,
+    "categoria": "pan",
+    "imagen": "https://example.com/images/pan-de-maiz.jpg"
+},
+{
+    "id": 2,
+    "titulo": "Croissant",
+    "descripcion": "Croissant de mantequilla, crujiente y delicioso.",
+    "precio": 1.20,
+    "categoria": "pasteleria",
+    "imagen": "https://example.com/images/croissant.jpg"
+},
+{
+    "id": 3,
+    "titulo": "Pastel de zanahoria",
+    "descripcion": "Pastel húmedo de zanahoria con cobertura de queso crema.",
+    "precio": 2.00,
+    "categoria": "pasteleria",
+    "imagen": "https://example.com/images/pastel-de-zanahoria.jpg"
+},
+{
+    "id": 6,
+    "titulo": "Brownie de chocolate",
+    "descripcion": "Brownie denso y fudgy con trozos de chocolate.",
+    "precio": 1.50,
+    "categoria": "pasteleria",
+    "imagen": "https://example.com/images/brownie-de-chocolate.jpg"
+},
+{
+    "id": 7,
+    "titulo": "Tarta de manzana",
+    "descripcion": "Tarta crujiente rellena de manzanas frescas y canela.",
+    "precio": 2.50,
+    "categoria": "pasteleria",
+    "imagen": "https://example.com/images/tarta-de-manzana.jpg"
+},
+{
+    "id": 9,
+    "titulo": "Pastel de chocolate",
+    "descripcion": "Pastel decadente hecho con chocolate belga.",
+    "precio": 15.00,
+    "categoria": "pasteleria",
+    "imagen": "https://example.com/images/pastel-de-chocolate.jpg"
+},
+{
+    "id": 10,
+    "titulo": "Chocolatina caliente",
+    "descripcion": "Bebida caliente a base de chocolate y leche.",
+    "precio": 2.50,
+    "categoria": "bebidas",
+    "imagen": "https://example.com/images/chocolatina-caliente.jpg"
+},
+{
+    "id": 11,
+    "titulo": "Café espresso",
+    "descripcion": "Café fuerte y concentrado.",
+    "precio": 1.50,
+    "categoria": "bebidas",
+    "imagen": "https://example.com/images/cafe-espresso.jpg"
+},
+{
+    "id": 12,
+    "titulo": "Té verde",
+    "descripcion": "Infusión de té verde con antioxidantes.",
+    "precio": 1.75,
+    "categoria": "bebidas",
+    "imagen": "https://example.com/images/te-verde.jpg"
+},
+{
+    "id": 14,
+    "titulo": "Latte con vainilla",
+    "descripcion": "Café con leche y un toque de vainilla.",
+    "precio": 3.00,
+    "categoria": "bebidas",
+    "imagen": "https://example.com/images/latte-con-vainilla.jpg"
+},
+{
+    "id": 15,
+    "titulo": "Limonada casera",
+    "descripcion": "Refrescante limonada hecha con limones frescos.",
+    "precio": 2.00,
+    "categoria": "bebidas",
+    "imagen": "https://example.com/images/limonada-casera.jpg"
+}
+]
