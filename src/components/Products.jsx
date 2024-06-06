@@ -42,53 +42,64 @@ const Productos = () => {
 
     return (
         <>
-            <h5>Todos los productos</h5>
+            <h1>Nuestros productos</h1>
             <section className="contenedor-cat" >
                 <h6>Ver por categoria</h6>
 
                 <button onClick={() => handlerCategoryChange('todos')}
                     type="button"
-                    className="btn btn-primary btn-sm">
+                    className="btn btn-primary btn-sm btn-cat">
                     Todos
                 </button>
 
-                <button onClick={() => handlerCategoryChange('pan')}
+                <button onClick={() => handlerCategoryChange('Panes')}
                     type="button"
-                    className="btn btn-primary btn-sm">
+                    className="btn btn-primary btn-sm btn-cat">
                     Panes
                 </button>
-                <button onClick={() => handlerCategoryChange('pasteleria')}
+                <button onClick={() => handlerCategoryChange('Pastelería')}
                     type="button"
-                    className="btn btn-primary btn-sm">
-                    Pasteleria
+                    className="btn btn-primary btn-sm btn-cat">
+                    Pastelería
                 </button>
-                <button onClick={() => handlerCategoryChange('bebidas')}
+                <button onClick={() => handlerCategoryChange('Bebidas')}
                     type="button"
-                    className="btn btn-primary btn-sm">
+                    className="btn btn-primary btn-sm btn-cat">
                     Bebidas
                 </button>
             </section>
 
             {loading ? (
-                <p>Cargando...</p>
+                <h1>Cargando...</h1>
             ) : (
-                
+
                 <section className="contenedor-card">
                     {
                         productosFiltrados.map((element) => (
                             <div key={element.id} className="card-marg">
-                                <Link to={`/item/${element.id}`}
-                                    className="card">
-                                    {/* <div> {element.imagen} </div> */}
-                                    <p className="titulo-card">
-                                        {element.titulo}
-                                    </p>
-                                    <p className="precio-card">
-                                        ${element.precio}
-                                    </p>
-                                </Link>
-                            </div>
+                                <div className="card">
+                                    <Link to={`/item/${element.id}`}>
 
+                                        <img className="img-prod"
+                                            src={element.imagen}
+                                            alt={element.titulo} />
+                                    </Link>
+                                    <div className="cuerpo-card">
+                                        <Link to={`/item/${element.id}`}>
+                                            <h3 className="titulo-card">
+                                                {element.titulo}
+                                            </h3>
+                                        </Link>
+
+                                        <h6 className="precio-card">
+                                            Precio: ${element.precio}
+                                        </h6>
+                                        <button className="producto-agregar">
+                                            Agregar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         ))
                     }
                 </section>

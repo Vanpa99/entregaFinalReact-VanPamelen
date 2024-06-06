@@ -1,122 +1,123 @@
+
 [
 {
     "id": 1,
     "titulo": "Pan de masa madre",
     "descripcion": "Pan artesanal hecho con masa madre.",
     "precio": 3.50,
-    "categoria": "pan",
-    "imagen": "download.jpg"
+    "categoria": "Panes",
+    "imagen": "https://cuk-it.com/wp-content/uploads/2023/08/thumb02-3-1024x576.jpg"
 },
 {
     "id": 4,
     "titulo": "Baguette",
     "descripcion": "Clásica baguette francesa, crujiente por fuera y suave por dentro.",
     "precio": 1.80,
-    "categoria": "pan",
-    "imagen": "https://example.com/images/baguette.jpg"
+    "categoria": "Panes",
+    "imagen": "https://i.blogs.es/d0c0e1/baguette-min/1366_2000.jpg"
 },
 {
     "id": 5,
     "titulo": "Pan integral",
     "descripcion": "Pan saludable hecho con harina integral.",
     "precio": 2.50,
-    "categoria": "pan",
-    "imagen": "https://example.com/images/pan-integral.jpg"
+    "categoria": "Panes",
+    "imagen": "https://cdn7.kiwilimon.com/recetaimagen/28616/28765.jpg"
 },
 {
     "id": 8,
     "titulo": "Pan de centeno",
     "descripcion": "Pan denso y saludable hecho con harina de centeno.",
     "precio": 3.00,
-    "categoria": "pan",
-    "imagen": "https://example.com/images/pan-de-centeno.jpg"
+    "categoria": "Panes",
+    "imagen": "https://www.lanacion.com.ar/resizer/v2/pan-de-WRECVBJYKVF5TIW3BWD34VGFNQ.jpg?auth=d1b9a94357e8871132e932d4ced1a3a5d908d87e52e99c7b4e5d4830150dfbde&width=420&height=280&quality=70&smart=true"
 },
 {
     "id": 13,
     "titulo": "Pan de maíz",
     "descripcion": "Pan dulce y esponjoso hecho con harina de maíz.",
     "precio": 2.20,
-    "categoria": "pan",
-    "imagen": "https://example.com/images/pan-de-maiz.jpg"
+    "categoria": "Panes",
+    "imagen": "https://m.conpan.es/images/recetas/pan-maiz6.jpg"
 },
 {
     "id": 2,
     "titulo": "Croissant",
     "descripcion": "Croissant de mantequilla, crujiente y delicioso.",
     "precio": 1.20,
-    "categoria": "pasteleria",
-    "imagen": "https://example.com/images/croissant.jpg"
+    "categoria": "Pastelería",
+    "imagen": "https://t1.uc.ltmcdn.com/es/posts/7/1/3/como_hacer_croissants_de_mantequilla_51317_600.jpg"
 },
 {
     "id": 3,
     "titulo": "Pastel de zanahoria",
     "descripcion": "Pastel húmedo de zanahoria con cobertura de queso crema.",
     "precio": 2.00,
-    "categoria": "pasteleria",
-    "imagen": "https://example.com/images/pastel-de-zanahoria.jpg"
+    "categoria": "Pastelería",
+    "imagen": "https://www.danone.es/wp-content/uploads/2022/03/COMI15-1280x853.jpg"
 },
 {
     "id": 6,
     "titulo": "Brownie de chocolate",
     "descripcion": "Brownie denso y fudgy con trozos de chocolate.",
     "precio": 1.50,
-    "categoria": "pasteleria",
-    "imagen": "https://example.com/images/brownie-de-chocolate.jpg"
+    "categoria": "Pastelería",
+    "imagen": "https://images.cookforyourlife.org/wp-content/uploads/2020/06/Dark-Chocolate-Brownies-shutterstock_112430981.jpg"
 },
 {
     "id": 7,
     "titulo": "Tarta de manzana",
     "descripcion": "Tarta crujiente rellena de manzanas frescas y canela.",
     "precio": 2.50,
-    "categoria": "pasteleria",
-    "imagen": "https://example.com/images/tarta-de-manzana.jpg"
+    "categoria": "Pastelería",
+    "imagen": "https://media.zummocorp.com/mask-group-1-1687945103eJ2Ij.webp"
 },
 {
     "id": 9,
     "titulo": "Pastel de chocolate",
     "descripcion": "Pastel decadente hecho con chocolate belga.",
     "precio": 15.00,
-    "categoria": "pasteleria",
-    "imagen": "https://example.com/images/pastel-de-chocolate.jpg"
+    "categoria": "Pastelería",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFmWa3dv05DMOAlXs39ABtbRPIQWTAXuL65A&s"
 },
 {
     "id": 10,
-    "titulo": "Chocolatina caliente",
+    "titulo": "Chocolate caliente",
     "descripcion": "Bebida caliente a base de chocolate y leche.",
     "precio": 2.50,
-    "categoria": "bebidas",
-    "imagen": "https://example.com/images/chocolatina-caliente.jpg"
+    "categoria": "Bebidas",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUfx9iggBs53MXPar9IRgPPm8_-oxkcco6fA&s"
 },
 {
     "id": 11,
     "titulo": "Café espresso",
     "descripcion": "Café fuerte y concentrado.",
     "precio": 1.50,
-    "categoria": "bebidas",
-    "imagen": "https://example.com/images/cafe-espresso.jpg"
+    "categoria": "Bebidas",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWbAdxaa8cdh9WWGUDvsxeSosCe7rC_XC5wA&s"
 },
 {
     "id": 12,
     "titulo": "Té verde",
     "descripcion": "Infusión de té verde con antioxidantes.",
     "precio": 1.75,
-    "categoria": "bebidas",
-    "imagen": "https://example.com/images/te-verde.jpg"
+    "categoria": "Bebidas",
+    "imagen": "https://www.elnacional.cat/uploads/s1/38/04/50/43/te-verde.jpeg"
 },
 {
     "id": 14,
-    "titulo": "Latte con vainilla",
-    "descripcion": "Café con leche y un toque de vainilla.",
+    "titulo": "Latte con canela",
+    "descripcion": "Café con leche y un toque de canela.",
     "precio": 3.00,
-    "categoria": "bebidas",
-    "imagen": "https://example.com/images/latte-con-vainilla.jpg"
+    "categoria": "Bebidas",
+    "imagen": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/como-hacer-cafe-latte-con-canela-facil.jpg"
 },
 {
     "id": 15,
     "titulo": "Limonada casera",
     "descripcion": "Refrescante limonada hecha con limones frescos.",
     "precio": 2.00,
-    "categoria": "bebidas",
-    "imagen": "https://example.com/images/limonada-casera.jpg"
+    "categoria": "Bebidas",
+    "imagen": "https://www.elespectador.com/resizer/kxUF7Kmf7_mGC2YQoGM6stgDVP4=/920x613/filters:quality(60):format(jpeg)/www.elespectador.com/resizer/0ZccHPAjq8TYDzG9UunvfldNI74=/arc-anglerfish-arc2-prod-elespectador/public/7T55ONF4YFBWZCPFGYBUKPCNIA.jpg"
 }
 ]
