@@ -31,22 +31,24 @@ const ItemDetailContainer = () => {
     }
 
     return (
-        <div>
-            <img 
-                src={producto.imagen} 
+        <div className='cont-det'>
+            <img className='img-det'
+                src={producto.imagen}
                 alt={producto.titulo} />
-            <h6>
-                {producto.titulo}
-            </h6>
-            <p>
-                {producto.descripcion}
-            </p>
-            <p>
-                Precio: ${producto.precio}
-            </p>
-            <p>
-                Categoría: {producto.categoria}
-            </p>
+            <div className='cuerpo-card-det'>
+                <h3 className='titulo-det'>
+                    {producto.titulo}
+                </h3>
+                <h5 className='desc-det'>
+                    {producto.descripcion}
+                </h5>
+                <h6 className='precio-det'>
+                    Precio: ${producto.precio}
+                </h6>
+                <p className='cat-det'>
+                    Categoría: {producto.categoria}
+                </p>
+            </div>
         </div>
     );
 };

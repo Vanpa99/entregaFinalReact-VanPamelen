@@ -67,6 +67,65 @@ a{
     font-weight: bold;
     color: black;
 }
+
+.body-home {
+    /* background-image: ""; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 96vh;
+}
+
+.card-home {
+    display: flex;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px;
+    background-color: #ffffff80;
+}
+
+.card-content-home {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.card-title-home {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-description-home {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff6347;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-home:hover {
+    background-color: #ff4500;
+}
+
+
+
+
 .contenedor-cat{
     text-align: center;
 }
@@ -83,7 +142,7 @@ a{
 
 .contenedor-card{
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -95,7 +154,7 @@ a{
     text-align: center;
     width: 15rem;
     height: 25rem;
-    margin: 0.5rem; 
+    margin: 0.5rem;
 }
 
 .img-prod{
@@ -119,33 +178,44 @@ a{
     margin-inline: auto;
 }
 
-/* .cont-det{
-    display: flex;
-    margin-top: 100px;
-    justify-content: center;
-    align-items: center;
+.cont-det{
     border: solid black 1px;
-    padding: 1rem;
-    width: 90%;
+    margin-top: 10vh;
+    display: flex;
+    width: 50%;
+    height: 30%;
     margin-inline: auto;
-} */
-/* .card-det{
-    border: solid black 1px;
-    width: 70%;
-    height: 400px;
-    padding: 0.5rem;
-    margin: 0.5rem; 
-    display: flex;
-    flex-wrap: wrap;
-} */
+    border-radius: 15px;
+}
 
-
-
-/* .img-prod-det{
-    width: 270px;
-    height: 200px;
+.img-det{
+    width: 40%;
+    height: 100%;
     object-fit: cover;
-    align-items: start;
-    justify-content: center;
-    
-} */
+    border-radius: 15px;
+}
+
+.cuerpo-card-det{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-inline: 5%;
+    /* padding: 4rem; */
+}
+
+
+
+
+
+/* .card-det{ */
+    /* border: solid black 1px; */
+    /* width: 70%; */
+    /* height: 400px; */
+    /* padding: 0.5rem; */
+    /* margin: 0.5rem;  */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+/* }  */
+
+
+
