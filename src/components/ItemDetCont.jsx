@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import prod from "../carpProd/prod.json"
-import Promesa from './Promesa';
+// import Promesa from './Promesa';
 import ItemDetail from './ItemDetail';
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase/fireBbase"
@@ -48,43 +47,3 @@ const ItemDetailContainer = () => {
 };
 
 export default ItemDetailContainer;
-
-// VERSION CON NUMERO DE CARRITO ACTUALIZABLE(NO RESTA, SOLO SUMA)
-// import React, { useState, useEffect } from 'react';
-// import { useParams } from 'react-router-dom';
-// import prod from "../carpProd/prod.json"
-// import Promesa from './Promesa';
-// import ItemDetail from './ItemDetail';
-
-// const ItemDetailContainer = () => {
-
-//     const { id } = useParams();
-//     const [producto, setProducto] = useState(null);
-//     const [loading, setLoading] = useState(true);
-
-//     useEffect(() => {
-//         const fetchData = async () => {
-//             setLoading(true);
-//             const data = await Promesa(prod);
-//             const productoEncontrado = data.find((p) => p.id === parseInt(id));
-//             setProducto(productoEncontrado);
-//             setLoading(false);
-//         };
-//         fetchData();
-//     }, [id, prod]);
-
-//     if (loading) {
-//         return <p>Cargando...</p>;
-//     }
-
-//     if (!producto) {
-//         return <div>Producto no encontrado</div>;
-//     }
-
-//     return (
-//         <ItemDetail producto={producto}/>
-//     );
-// };
-
-
-// export default ItemDetailContainer;

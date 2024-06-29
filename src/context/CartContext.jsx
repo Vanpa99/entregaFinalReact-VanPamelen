@@ -48,8 +48,3 @@ export const CartProvider = ( {children} ) => {
         </CartContext.Provider>
     )
 }
-
-// // VERSION CON NUMERO DE CARRITO ACTUALIZABLE(NO RESTA, SOLO SUMA)
-// import { createContext } from "react";
-
-// export const CartContext = createContext();

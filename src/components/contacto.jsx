@@ -2,7 +2,7 @@ const Contacto = () => {
     return (
         <div>
             <h2>
-                Contacto
+                Estamos Trabajando...
             </h2>
         </div>
     )
