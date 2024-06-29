@@ -7,10 +7,6 @@ const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                {/* <a className="navbar-brand" href="">
-                    <Logo imgLogo={logo} />
-                </a> */}
-
                 <Link to={'/'}
                     className="navbar-brand">
                     <img
@@ -25,17 +21,25 @@ const NavBar = () => {
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <Link to={'/'}
-                                className="nav-link">Inicio</Link>
+                                className="nav-link">
+                                Inicio
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to={'/productos'}>Productos</Link>
+                            <Link className="nav-link"
+                                to={'/productos'}>
+                                Productos
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <Link to={'/contacto'}
-                            className="nav-link">Contactate</Link>
+                                className="nav-link">
+                                Contactate
+                            </Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link to={'/carrito'} className="nav-link">
+                            <Link to={'/carrito'}
+                                className="nav-link">
                                 <Cart cartImg={imgCart} />
                             </Link>
                         </li>
